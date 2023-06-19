@@ -8,7 +8,8 @@ def messag(dizer):
 
 
 @bot.message_handler(content_types=['document', 'audio'])
-def handle_docs_audio(message):
-	bot.reply_to(message, 'ok')
+if content_types == 'audio'
+	def handle_docs_audio(message):
+		bot.reply_to(message, 'ok')
 
 bot.infinity_polling()
